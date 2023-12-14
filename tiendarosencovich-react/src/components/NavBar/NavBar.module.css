@@ -1,0 +1,87 @@
+/* .moniessen {
+    width: 6.375rem;
+    height: 6.375rem;
+    margin: 20px;
+   */
+  
+  .NavBar {
+   flex-wrap:wrap ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .moni {
+    display: flex;
+    list-style: none;
+    align-items: center
+  }
+  
+  .li {
+   /*  margin-right: 20px; */
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .subMenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(231, 244, 234, 0.629);
+    min-width: 160px;
+
+    z-index: 1;
+  }
+  
+  .subMenuButton {
+    background-color: #ffffff00;
+    color: #fff;
+    padding: 0.5rem; 
+    border-bottom: solid 2px white;
+  font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+  
+  }
+  .subMenuButton:hover{
+    color: #e6e6e6;
+    
+    border-bottom: solid 2px rgb(148, 143, 143);
+  }
+  
+  .open {
+    display: block;
+  }
+  
+  .carrito {
+    position: relative;
+  
+  }
+  .ActiveOption {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .ActiveOptions {
+    background-color: #ffffff00;
+    color: #fff;
+     padding: 0.5rem; 
+    border-bottom: solid 2px white;
+  font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+  
+  }
+  .ActiveOptions:hover{
+    color: #e6e6e6;
+    
+    border-bottom: solid 2px rgb(148, 143, 143);
+  }
+  
+  
+ @media (max-width: 394px) {
+   .moni {
+    flex-direction: column;
+    gap: 20px;
+   }
+  } 

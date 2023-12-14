@@ -1,0 +1,11 @@
+body {
+
+ /*  background-color: #FBAB7E; */
+  background-image: linear-gradient(180deg, #f5d1c0 0%, #5d9bd4 100%);
+  
+/*   background: linear-gradient(54deg, rgb(183, 0, 0) 0%,rgb(172, 42, 3)) 15%, rgb(255, 225, 0) 30%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+ } 
+
+ 

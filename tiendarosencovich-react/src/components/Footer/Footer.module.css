@@ -1,0 +1,11 @@
+/*  Footer.module.css  */
+
+.footer {
+    background-color: #fff9f992;
+    text-align: center;
+    width: 200vh;
+    height: 30vh;
+    margin-top: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
